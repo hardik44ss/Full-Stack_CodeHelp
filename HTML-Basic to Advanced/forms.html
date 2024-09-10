@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form Basics</title>
+</head>
+<body>
+    <h1>HTML Forms Basics</h1>
+    <h2>Use of "for and id" : They must be same </h2>
+    
+    <!-- Basic Form Structure -->
+    <form action="/submit">
+        <fieldset>
+            <legend>Personal Information</legend>
+            
+            <!-- Text Input -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+            
+            <!-- Password Input -->
+            <label for="password">Enter Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+            
+            <!-- Radio Buttons : name of options should be same  -->
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="prefer-not-to-say" name="gender" value="prefer-not-to-say">
+            <label for="prefer-not-to-say">Prefer not to say</label><br><br>
+            
+            <!-- Checkbox -->
+            <label>Languages Spoken:</label><br>
+            <input type="checkbox" id="english" name="languages" value="english">
+            <label for="english">English</label><br>
+            <input type="checkbox" id="hindi" name="languages" value="hindi">
+            <label for="hindi">Hindi</label><br><br>
+            
+            <!-- Drop-down Select Menu -->
+            <label for="country">Select Country:</label>
+            <select id="country" name="country">
+                <option value="usa">United States</option>
+                <option value="india">India</option>
+                <option value="uk">United Kingdom</option>
+                <option value="canada">Canada</option>
+            </select><br><br>
+            
+            <!-- File Upload -->
+            <label for="fileUpload">Upload File:</label>
+            <input type="file" id="fileUpload" name="fileUpload"><br><br>
+            
+            <!-- Date Input -->
+            <label for="dob">Enter Date of Birth:</label>
+            <input type="date" id="dob" name="dob" placeholder="dd-mm-yyyy"><br><br>
+            
+            <!-- Submit Button -->
+            <input type="submit" value="Submit">
+        </fieldset>
+    </form>
+</body>
+</html>

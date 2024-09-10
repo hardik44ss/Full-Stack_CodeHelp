@@ -1,0 +1,89 @@
+# Creating a txt file with the content separated by two lines between each point.
+content = """\
+- Purpose of the DOCTYPE declaration in HTML:
+         Informs browser about HTML version for rendering in standards mode.
+
+- Difference between HTML and XHTML:
+    A :- XHTML is stricter, XML-based, with closed tags and lowercase names.
+
+- Semantic elements in HTML5:
+    A :- Examples include <header>, <nav>, <article>, <footer>; improve accessibility and SEO.
+
+- Making a website responsive without CSS:
+    A :- Use viewport meta tag, responsive images (srcset), and <picture> element.
+
+- Difference between localStorage and sessionStorage: localStorage persists; sessionStorage clears after session.
+
+- Progressive enhancement in web development:
+    A :- Strategy for basic functionality across devices, enhancing for capable browsers.
+
+- Data attributes in HTML5:
+    A :- Store custom data with data-* attributes, useful for private page/application data.
+
+- Improving web page accessibility:
+    A :- Use semantic HTML, alt text for images, ARIA attributes, keyboard navigation.
+
+- Difference between cookies, localStorage, sessionStorage: Cookies for server-side, localStorage/sessionStorage for client-side storage.
+
+- Purpose of <canvas> element in HTML5:
+    A :- Draw graphics dynamically with JavaScript for animations, games, visualizations.
+
+- SEO best practices in HTML:
+    A :- Semantic HTML, optimized tags (title, meta), proper header tags, alt text, sitemap, schema markup.
+
+- Microdata in HTML5 for SEO:
+    A :- Nest metadata in content, helps search engines understand page content.
+
+- Web components in modern web development:
+    A :- Reusable custom elements with encapsulated functionality.
+
+- Difference between <script>, <script async>, <script defer>:
+    A :- Script tags block parsing; async and defer for non-blocking download and execution.
+
+- Optimizing web page loading:
+    A :- Minimize requests, enable compression, use CDN, optimize images, minify CSS/JavaScript, browser caching, lazy loading.
+
+- Purpose of srcset attribute in <img> tags:
+    A :- Specify multiple image sources for responsive design based on screen size and resolution.
+
+- Shadow DOM in web development:
+    A :- Hidden DOM trees for encapsulated JavaScript, CSS, and templating.
+
+- Handling browser compatibility issues in HTML: Feature detection, fallbacks, polyfills, cross-browser testing.
+
+- Web Workers for web application performance: Run scripts in background threads, offload heavy computations.
+
+- Meta viewport tag in HTML:
+    A :- Controls viewport size and scale for proper rendering on mobile devices, crucial for responsive design.
+
+- Difference between GET and POST methods in form submission: GET appends data to URL;
+    A :- POST sends data in request body, more secure.
+
+- Form validation using HTML5:
+    A :- Use attributes like required, pattern, min, max, type="email"/"number" for client-side validation.
+
+- ARIA attributes for web accessibility:
+    A :- Define ways to make content accessible to people with disabilities.
+
+- Semantic versioning in web development:
+    A :- Versioning scheme (Major.Minor.Patch) conveying changes in release.
+
+- Creating responsive image gallery in HTML/CSS:
+    A :- Use Flexbox/Grid, media queries, <picture> element/srcset for responsive images.
+
+- New input types in HTML5:
+    A :- Date, time, email, url, number, range, search, color, improving UX and validation.
+
+- Embedding audio/video in HTML5:
+    A :- <audio> and <video> elements, support various formats, built-in controls without plugins.
+
+- Lazy loading in web development:
+    A :- Defer loading non-critical resources until needed, implemented with loading="lazy".
+
+- Purpose of rel attribute in link tags:
+    A :- Specifies relationship between current and linked document (stylesheet, icon, prefetch).
+
+- Structuring HTML for SEO and accessibility:
+    A :- Use semantic elements, descriptive alt text, hierarchical headers, logical structure, descriptive links.
+"""
+
