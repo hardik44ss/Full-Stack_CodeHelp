@@ -1,0 +1,41 @@
+Fonts:
+    - font-family      : { Arial, sans-serif }
+    - font-size        : { 16px, 1em, 100% }
+    - font-weight      : { normal, bold, bolder, lighter, 100, 200, 300, 400, 500, 600, 700, 800, 900 }
+    - font-style       : { normal, italic, oblique }
+    - line-height      : { 20px , 1.5, 150%, 1.5em }
+    - letter-spacing   : { 1px, 0.1em }
+    - text-align       : { left, right, center, justify }
+    - text-decoration 
+    - text-indent 
+    - text-transform   : { uppercase, lowercase, capitalize, none }
+    - white-space 
+    - word-spacing
+    - font-variant
+    - font-stretch 
+    - font     
+    - text-shadow      : { 1px 1px 1px #000 }
+
+Color: 
+    - color                 : { #000, rgb(0, 0, 0), rgba(0, 0, 0, 0.5), hsl(0, 0%, 0%), hsla(0, 0%, 0%, 0.5) }
+    - background-color      : { #fff, rgb(255, 255, 255), rgba(255, 255, 255, 0.5), hsl(0, 0%, 100%), hsla(0, 0%, 100%, 0.5) }
+    - opacity               : { 0.5 }
+    - rgba                  : {red , green , blue , alpha}
+    - hsl                   : {hue , saturation , lightness}
+    - hsla                  : {hue , saturation , lightness , alpha}
+    - hex                   : { #000, #fff, #f00, #0f0, #00f, #ff0, #0ff, #f0f }
+    - color-contrast        : { #000, #fff }
+    - color-contrast-ratio  : { 1:1, 21:1 }
+    - color-contrast-text
+    - color-contrast-background
+    - color-contrast-text-against-background
+
+DevTools: use <link> to open DevTools
+    - Inspect               
+    - Styles                
+    - Computed
+    - Filter
+    - Color Picker
+    - Color Contrast
+    - Color Contrast Ratio
+

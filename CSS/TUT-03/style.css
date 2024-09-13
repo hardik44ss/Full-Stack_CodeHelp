@@ -1,0 +1,69 @@
+/* Universal selector */
+* {
+    text-align: center; 
+    margin: auto;
+     /*TO center the head h3*/
+} 
+
+/* Styling for h3 element */
+h3 {
+    width: 400px;
+    height: 100px;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: rgb(53, 154, 188);;
+}
+
+/* Styling for span elements */
+span {
+    width: 200px;
+    height: 50px;
+    border: 2px dotted red;
+    border-radius: 5px;
+    background-color: rgb(249, 249, 168);
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Box model section */
+.paraBox {
+    font-size: 20px;
+    background-color: aqua;
+    padding: 10px;
+    /* padding-bottom: 20px; */
+    border: 20px solid blue;
+    border-radius: 15px;
+    margin: 20px;
+    margin-left: 50px;
+}
+
+.boxModel {
+    border: 5px solid;
+    background-color: aquamarine;
+}
+
+
+/* Box sizing section */
+.boxSizingContainer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: lightgray;
+}
+
+.contentBox {
+    box-sizing: content-box; /* Default: Width applies to content only */
+}
+
+/* border-box behavior */
+.borderBox {
+    box-sizing: border-box; /* Width includes padding and border */
+}
+.contentBox, .borderBox {
+    width: 300px;
+    padding: 20px;
+    border: 5px solid black;
+    margin-bottom: 10px;
+    background-color: lightyellow;
+}
+
+/* content-box behavior */

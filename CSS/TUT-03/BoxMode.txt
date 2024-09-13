@@ -1,0 +1,57 @@
+CSS Border, Height, Width, and Box-Sizing Revision Notes
+=========================================================
+
+1. **Border Property:**
+   - The `border` property defines the area surrounding the content and padding.
+   - Example: `border: 5px solid black;`
+   - Variants include solid, dotted, dashed, etc.
+   - You can round the border using `border-radius`.
+
+2. **Width and Height Properties:**
+   - `width` and `height` define the size of an element.
+   - These can be specified in units like px, %, em, etc.
+   - If using percentages, it adjusts relative to the parent container.
+   - Example: `width: 200px; height: 100px;`
+
+3. **Box-Sizing:**
+   - Determines how the total width and height of an element are calculated.
+   - `content-box` (default): Width and height apply only to the content.
+   - `border-box`: Width and height include padding, border, keeping the total size consistent.
+   - Example: 
+     - `box-sizing: content-box;`
+     - `box-sizing: border-box;`
+
+4. **Why `border-box` is a good practice:**
+   - It simplifies layout calculations.
+   - It makes layouts more predictable.
+   - Consistent sizing when adding padding and borders.
+   - Better for responsive design.
+
+=========================================================
+
+Important Short Questions:
+==========================
+1. What is the default value of `box-sizing`?
+   - Answer: `content-box`
+
+2. How can you make sure padding and borders do not increase the total width of an element?
+   - Answer: Use `box-sizing: border-box`.
+
+3. What is the difference between `content-box` and `border-box`?
+   - Answer: In `content-box`, width and height apply only to the content. In `border-box`, width and height include padding and borders.
+
+4. How do you center text horizontally in an element?
+   - Answer: Use `text-align: center;`.
+
+5. How do you round the corners of an element's border?
+   - Answer: Use `border-radius`.
+
+6. How do `margin` and `padding` differ?
+   - Answer: `margin` adds space outside the element, while `padding` adds space inside the element between content and border.
+
+7. How can you set a dashed border?
+   - Answer: `border: 2px dashed red;`
+
+8. Why h3 is not centered on page after using text-align: center?
+   - Answer: Because h3 is a block-level element like para, and it takes the full width of the parent container.
+=========================================================

@@ -1,0 +1,60 @@
+/* Global Styles for the entire page */
+body {
+    /* Setting the font for the entire page */
+    font-family: Arial, sans-serif;
+    /* Setting the background color for the page */
+    background-color: #050000;
+}
+
+/* Styling the container class */
+.container {
+    /* Add padding and center to show container */
+    padding: 20px;
+    margin: 20px auto;
+    /* Adding background color and border radius */
+    background-color: #ae2929;
+    border-radius: 8px;
+}
+
+/* Styling the header element (element selector) */
+header {
+    /* Set a background and text color */
+    background-color: #333;
+    color: #cea3a3;
+    padding: 10px;
+    text-align: center;
+}
+
+/* ID Selector for Introduction Section */
+#introduction {
+    /* Set background and padding */
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-left: 5px solid #333;
+}
+
+/* ID Selector for Types Section */
+#types {
+    /* Different background color for Types section */
+    background-color: #e0f7ff;
+    border-left: 5px solid #0099cc;
+}
+
+/* ID Selector for Selectors Section */
+#selectors {
+    /* Another background color for the Selectors section */
+    background-color: #f0ffe6;
+    border-left: 5px solid #66cc66;
+}
+
+/* Class Selector for unordered lists */
+ul {
+    /* Remove default list styles  add another*/
+    list-style-type: circle;
+}
+
+/* Class Selector for list items */
+li {
+    /* Add some spacing between list items */
+    margin-bottom: 5px;
+}

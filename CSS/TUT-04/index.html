@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block and Inline Elements with Display Property</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Understanding Block and Inline Elements</h1>
+        <p>Block elements take full width, while inline elements take only the space they need.</p>
+    </header>
+
+    <main>
+        <!-- Block elements -->
+        <article>
+            <h2>Article Block Element</h2>
+            <p>This is an article block that contains its own content. It spans the entire width of its parent.</p>
+        </article>
+
+        <aside>
+            <h3>Aside Block Element</h3>
+            <p>This is an aside block element used for side content or additional information.</p>
+        </aside>
+
+        <nav>
+            <h3>Navigation Block Element</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </nav>
+
+        <footer>
+            <address>Block Element: Address tag for contact info. Email: contact@example.com</address>
+        </footer>
+    </main>
+
+    <hr>
+    
+    <section>
+        <!-- Inline elements -->
+        <h3>Inline Elements</h3>
+
+        <label for="name">Label Inline: </label>
+        <input type="text" id="name" placeholder="Enter your name"><br>
+        
+        <span>Span Inline Element(This is a span.)</span>
+        <em>Emphasis Inline Element(Important text.)</em> <!-- <br> -->
+        <button>Button Inline Element</button>
+        <img src="https://via.placeholder.com/50" alt="Sample Image">
+
+        
+        <p><a href="#">Link Inline Element</a></p>
+        
+        <textarea rows="3" cols="30">TextArea Inline Element</textarea><br>
+        <select>
+            <option value="1">Option 1</option>
+            <option value="2">Option 2</option>
+        </select>
+    </section>
+    
+    <hr>
+
+    <section>
+        <h3>Display Properties(Using Div)</h3>
+        <div class="block-element">This is a block element that takes full width.</div>
+        
+        <div class="inline-block-element">This is an inline-block element.</div>
+        <div class="inline-block-element">This is another inline-block element.</div>
+
+        <div class="hidden-element">This content is hidden with display: none;</div>
+    </section>
+</body>
+
+</html>

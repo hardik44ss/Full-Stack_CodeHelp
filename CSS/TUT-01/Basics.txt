@@ -1,0 +1,20 @@
+CSS-Types:
+    -Inline (inside the tags)
+    -Internal (inside the head tag)
+    -External (in a separate file)
+    = Priority : !important > Inline > Internal > External
+
+CSS-Comments: /* comment */
+
+CSS-Selectors:
+    -Element Selector (tag name)             : {p,h1,div section , footer , header ...... etc} 
+    -ID Selector (#id)                       : {#id }
+    -Class Selector (.class)                 : {.class}    
+    -Group Selector (tag1, tag2, tag3)       : {p, h1, div {color: red;}} multiple tag par same css apply krna
+    -Universal Selector (*)                  : {*{color: red;}} 
+    -Descendant Selector (tag1 tag2)         : {div p {color: red;}}
+    -Child Selector (tag1 > tag2)            : {div > p {color: red;}}
+    -Adjacent Sibling Selector (tag1 + tag2)       : {div + p {color: red;}}
+    -Attribute Selector (tag[attribute])           : {a[href] {color: red;}}
+    -Pseudo-class Selector (tag:pseudo-class)      : {a:hover {color: red;}}
+    -Pseudo-element Selector (tag::pseudo-element) : {p::first-line {color: red;}}
