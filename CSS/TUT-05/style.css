@@ -1,0 +1,94 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2rem; /* Use rem to scale with the root font-size */
+}
+
+/* Section: Size Units */
+.size-units {
+    margin-bottom: 40px;
+}
+
+.size-units .box {
+    padding: 10px;
+    margin: 10px 0;
+    color: white;
+    background-color: #5A9;
+    text-align: center;
+    border-radius: 5px;
+}
+
+/* Different units for size */
+.px {
+    width: 200px; /* Fixed width using pixels */
+    height: 100px;
+}
+
+.percent {
+    width: 50%; /* Percentage width relative to the container */
+    height: 100px;
+}
+
+.em {
+    width: 20em; /* Width based on the font size of the element */
+    height: 5em;
+}
+
+.rem {
+    width: 30rem; /* Width based on the root font size (default 16px) */
+    height: 5rem;
+}
+
+.vh {
+    width: 50vw; /* Viewport width (50% of the screen's width) */
+    height: 20vh; /* Viewport height (20% of the screen's height) */
+}
+
+.vw {
+    width: 80vw; /* 80% of the viewport width */
+    height: 15vh; /* 15% of the viewport height */
+}
+
+/* Section: Float and Clear */
+.float-clear .float-box {
+    width: 200px;
+    height: 100px;
+    margin: 10px;
+    background-color: #f08;
+    color: white;
+    text-align: center;
+    line-height: 100px; /* Center text vertically */
+    border-radius: 5px;
+}
+
+/* Float left */
+.float-left {
+    float: left;
+}
+
+/* Float right */
+.float-right {
+    float: right;
+}
+
+/* Clear floats */
+.clearfix {
+    clear: both; /* Stops the next element from flowing around floated elements */
+}
+
+/* Ensure the paragraph after floating elements is positioned below the boxes */
+.float-clear p {
+    margin-top: 20px;
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 5px;
+}

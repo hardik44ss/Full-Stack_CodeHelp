@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning Size Units, Float, and Clear</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Understanding Size Units, Float, and Clear</h1>
+        <p>This example shows how to use various size units and how the float and clear properties work in CSS.</p>
+    </header>
+
+    <!-- Section demonstrating size units -->
+    <section class="size-units">
+        <h2>Size Units</h2>
+        <div class="box px">Width: 200px, Height: 100px</div>
+        <div class="box percent">Width: 50%, Height: 100px</div>
+        <div class="box em">Width: 20em, Height: 5em</div>
+        <div class="box rem">Width: 30rem, Height: 5rem</div>
+        <div class="box vh">Width: 50vw, Height: 20vh</div>
+        <div class="box vw">Width: 80vw, Height: 15vh</div>
+    </section>
+
+    <hr>
+
+    <!-- Section demonstrating float and clear -->
+    <section class="float-clear">
+        <h2>Float and Clear Example</h2>
+
+        <div class="float-box float-left">Float Left, Width: 200px, Height: 100px</div> 
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem sint consectetur iure nam vel necessitatibus eligendi saepe nulla explicabo ipsam! Itaque libero pariatur possimus? Unde quaerat modi explicabo. Architecto animi consectetur, aliquam sed consequatur incidunt facilis obcaecati vel, facere neque excepturi officiis voluptatem reiciendis ut ratione dolore itaque odit voluptatum dignissimos maiores quasi dolorum temporibus unde. Expedita doloremque exercitationem modi et laudantium veniam itaque temporibus. Quibusdam recusandae accusamus labore suscipit excepturi porro, ducimus aperiam molestiae id pariatur distinctio numquam eius deleniti autem, dicta quos quis optio aliquid sed mollitia ipsa quo inventore. Explicabo odit suscipit saepe quibusdam dicta perferendis. Porro asperiores, odit sed explicabo adipisci commodi. Quis autem hic voluptatum accusamus ullam, officiis odit voluptatibus? Ad expedita reiciendis, sunt odio aperiam dolorem ducimus consectetur deserunt error delectus quasi est, dolor officia odit non id quibusdam, commodi eos voluptates. Placeat aliquam quis odio nihil iste maxime autem eius, explicabo architecto dignissimos eaque, quasi quae reiciendis omnis molestiae debitis asperiores. Illum ad nulla quam, voluptatibus perspiciatis corrupti, suscipit doloremque unde voluptatum magnam expedita? Voluptatibus, corrupti. Consectetur repellat nihil omnis fuga explicabo esse illo aliquid architecto recusandae rerum expedita facere, consequuntur corrupti, incidunt ab possimus temporibus ad sed excepturi, quasi assumenda sequi ex.</p>
+
+        <div class="float-box float-right">Float Right, Width: 200px, Height: 100px</div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quisquam ipsa doloribus culpa eos exercitationem voluptatem repellendus unde maxime dolore ex tempore fuga accusamus vel porro deserunt distinctio doloremque, consequatur iusto quam similique quo! Blanditiis amet accusantium corporis quasi voluptate nisi repellendus nam voluptatem, ab iure quas, molestiae consequuntur obcaecati!</p>
+        
+        <div class="clearfix"></div> <!-- Clear floats here -->
+        
+        <p>After the boxes are floated, we use the <strong>clear</strong> property to make sure the next elements are properly placed below them.</p>
+    </section>
+
+</body>
+</html>

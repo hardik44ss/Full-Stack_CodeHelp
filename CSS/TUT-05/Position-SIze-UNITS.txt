@@ -1,0 +1,37 @@
+Position 
+    - static (default)
+    - relative (relative to its normal position)
+        ="gap is maintained"
+    - absolute (relative to the nearest positioned ancestor)
+        ="gap is not maintained"
+    - fixed (relative to the viewport)
+        ="gap is not maintained, used for fixed header/footer & workon entire viewport"
+    - sticky (based on the user's scroll position)
+        ="gap is maintained , for parent container"
+
+Size
+    - width
+    - height
+    - min-width
+    - max-width
+    - min-height
+    - max-height
+
+Units
+    absolute:
+        - px
+        - pt
+        - cm
+        - mm
+        - in
+
+    relative:
+        - %
+        - em
+        - rem
+        - vw
+        - vh
+        - vmin
+        - vmax
+
+*/

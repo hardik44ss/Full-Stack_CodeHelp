@@ -1,0 +1,23 @@
+Important Points:
+1. Block Elements: 
+    - Block elements take up the full width of their container.
+    - Examples: <article>, <aside>, <nav>, <footer>, <address>, <section>.
+
+2. Inline Elements: 
+    - Inline elements only take up as much width as their content.
+    - Examples: <label>, <input>, <span>, <em>, <button>, <a>.
+
+3. Inline-Block Elements:
+    - Inline-block elements behave like inline elements, but they respect width and height.
+    - Example: A <div> with 'display: inline-block'.
+
+4. Display Property:
+    - The CSS 'display' property controls the layout behavior of an element.
+    - Common values: 'block', 'inline', 'inline-block', 'none'.
+
+5. Visibility:
+    - 'display: none' hides the element, and it does not occupy any space.
+
+6. Tags like <hr>, <p>, <ul>, and <img> are commonly used with different display properties.
+
+7. HTML structure includes <header>, <main>, and <footer> for semantic layout.

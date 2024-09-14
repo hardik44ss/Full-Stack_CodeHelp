@@ -1,0 +1,61 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+/* Section: Overflow Examples */
+.overflow-examples {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.overflow-examples h2 {
+    margin-bottom: 20px;
+}
+
+.box {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Example 1: Overflow Visible */
+.overflow-visible {
+    overflow: visible;
+}
+
+/* Example 2: Overflow Hidden */
+.overflow-hidden {
+    overflow: hidden;
+    max-height: 100px; /* Limit height for demonstration */
+}
+
+/* Example 3: Overflow Scroll */
+.overflow-scroll {
+    overflow: scroll;
+    max-height: 150px; /* Limit height for demonstration */
+}
+
+/* Example 4: Overflow Auto */
+.overflow-auto {
+    overflow: auto;
+    max-height: 200px; /* Limit height for demonstration */
+}
